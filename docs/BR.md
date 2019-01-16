@@ -763,9 +763,9 @@ Applicant information MUST include, but not be limited to, at least one Fully-Qu
 
 Section 6.3.2 limits the validity period of Subscriber Certificates. The CA MAY use the documents and data provided in Section 3.2 to verify certificate information, or may reuse previous validations themselves, provided that:
 
-> (1)	Prior to March 1, 2018, the CA obtained the data or document from a source specified under Section 3.2 or completed the validation itself no more than 39 months prior to issuing the Certificate; and 
+> (1)	Prior to March 1, 2020, the CA obtained the data or document from a source specified under Section 3.2 or completed the validation itself no more than 825 days prior to issuing the Certificate; and 
 >
-> (2)	On or after March 1, 2018, the CA obtained the data or document from a source specified under Section 3.2 or completed the validation itself no more than 825 days prior to issuing the Certificate.
+> (2)	On or after March 1, 2020, the CA obtained the data or document from a source specified under Section 3.2 or completed the validation itself no more than 395 days prior to issuing the Certificate.
 
 In no case may a prior validation be reused if any data or document used in the prior validation was obtained more than the maximum time permitted for reuse of the data or document prior to issuing the Certificate.
 
@@ -1353,6 +1353,8 @@ The CA SHALL protect its Private Key in a system or device that has been validat
 ### 6.3.1 Public key archival
 
 ### 6.3.2 Certificate operational periods and key pair usage periods
+
+Subscriber Certificates issued on or after 1 March 2020 MUST have a Validity Period no greater than 395 days.
 Subscriber Certificates issued after 1 March 2018 MUST have a Validity Period no greater than 825 days.
 Subscriber Certificates issued after 1 July 2016 but prior to 1 March 2018 MUST have a Validity Period no greater than 39 months.
 
