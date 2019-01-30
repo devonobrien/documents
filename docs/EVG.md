@@ -545,7 +545,7 @@ A Certificate issued to a Subscriber MUST contain one or more policy identifier(
 
 ## 9.4.  Maximum Validity Period For EV Certificate
 
-The validity period for an EV Certificate SHALL NOT exceed 825 days.  It is RECOMMENDED that EV Subscriber Certificates have a maximum validity period of twelve months.
+The validity period for an EV Certificate SHALL NOT exceed 395 days.  It is RECOMMENDED that EV Subscriber Certificates have a maximum validity period of twelve months.
 
 ## 9.5.  Subscriber Public Key
 
@@ -1227,21 +1227,21 @@ A CA may rely on a previously verified certificate request to issue a replacemen
 
 (1) Except for reissuance of an EV Certificate under Section 11.14.2 and except when permitted otherwise in Section 11.14.1, the age of all data used to support issuance of an EV Certificate (before revalidation is required) SHALL NOT exceed the following limits:
 
-(A) Legal existence and identity – thirteen months;
+(A) Legal existence and identity – 395 days;
 
-(B) Assumed name – thirteen months;
+(B) Assumed name – 395 days;
 
-(C) Address of Place of Business – thirteen months;
+(C) Address of Place of Business – 395 days;
 
-(D) Verified Method of Communication – thirteen months;
+(D) Verified Method of Communication – 395 days;
 
-(E) Operational existence – thirteen months;
+(E) Operational existence – 395 days;
 
-(F) Domain Name – thirteen months;
+(F) Domain Name – 395 days;
 
-(G) Name, Title, Agency, and Authority – thirteen months, unless a contract between the CA and the Applicant specifies a different term, in which case, the term specified in such contract controls.  For example, the contract MAY include the perpetual assignment of EV roles until revoked by the Applicant or CA, or until the contract expires or is terminated.
+(G) Name, Title, Agency, and Authority – 395 days, unless a contract between the CA and the Applicant specifies a different term, in which case, the term specified in such contract controls.  For example, the contract MAY include the perpetual assignment of EV roles until revoked by the Applicant or CA, or until the contract expires or is terminated.
 
-(2) The thirteen-month period set forth above SHALL begin to run on the date the information was collected by the CA.
+(2) The 395 day period set forth above SHALL begin to run on the date the information was collected by the CA.
 
 (3)  The CA MAY reuse a previously submitted EV Certificate Request, Subscriber Agreement, or Terms of Use, including use of a single EV Certificate Request in support of multiple EV Certificates containing the same Subject to the extent permitted under Sections 11.9 and 11.10.
 
